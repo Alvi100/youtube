@@ -4,17 +4,20 @@
 <style type="text/css">
 
 body{
-  width: auto;
-  height: auto;
-  background-color: white;
-  background-image: url("yt.png");
-  background-repeat: no-repeat;
-  background-size: ;  
-  background-position:center ;
-  display: relative;
-  justify-content: center ;
-  align-items: center;
-  animation: img 1s alternate  infinite;
+      width: auto;
+    height: auto;
+    background-color: white;
+    background-image: url("yt.png");
+    background-repeat: no-repeat;
+    background-size: ;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: img 1s alternate  infinite;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
 }
 @keyframes img {
   0%{
@@ -42,11 +45,12 @@ span {
   padding-left: 100px;
 }
 .h {
-   font-size: 30px;
+   font-size: 30px; 
    display: block;
-   padding-top: 180px;
-   padding-left: 60px;
-   
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   padding-top: 750px;
 }
 
 .h h1{
